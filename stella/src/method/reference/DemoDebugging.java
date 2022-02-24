@@ -14,6 +14,9 @@ public class DemoDebugging {
 	static int multiply(int fno, int sno) {
 		//this multiply method has some 100 instructions
 		//step return means im done please return to the line no which invoked this multiply method
+		for(int i=1; i<10;i++) {
+			int j = i *5 +10-2;
+		}
 		return fno * sno;
 	}
 
